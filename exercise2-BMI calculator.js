@@ -44,4 +44,4 @@ if (bmi >= 25) {
     
 }
 
-bmiCalculator(63,1.65);
+bmiCalculator(70,1.75);
