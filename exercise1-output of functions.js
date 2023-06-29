@@ -14,7 +14,7 @@ function getDrink(money, costPerBottle) {
     console.log("moveRight");
 
 var numberOfBottles = Math.floor(money/costPerBottle);
-console.log("buy" + numberOfBottles + " bottles of milk");
+console.log("buy" + numberOfBottles + " bottles of Juice");
 
 
     console.log("moveLeft");
