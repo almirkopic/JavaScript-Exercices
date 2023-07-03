@@ -21,7 +21,7 @@ addEventListener("keydown", function(event){
 });
 
 
-function makeSound(key) {
+function makeSound(key) {                              // adding function to keys
 
     switch (key){
         case "w":
@@ -71,7 +71,7 @@ function buttonAnimation(currentKey) {
 activeButton.classList.add("pressed");
 
 setTimeout (function (){
-    activeButton.classList.remove('pressed');
+    activeButton.classList.remove('pressed');                     // adding animations to keys when they are pressed
 }, 100);
 }
 
