@@ -1,5 +1,5 @@
 
-var buttonColours = ["red", "blue", "green", "yellow"];
+var buttonColours = ["red", "blue", "green", "yellow"]; 
 
 var gamePattern = [];
 var userClickedPattern = [];
@@ -25,7 +25,7 @@ $(".btn").click(function() {
 
   checkAnswer(userClickedPattern.length-1);
 });
-
+// answer true/false
 function checkAnswer(currentLevel) {
 
     if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
@@ -66,13 +66,13 @@ function animatePress(currentColor) {
     $("#" + currentColor).removeClass("pressed");
   }, 100);
 }
-
-function playSound(name) {
+//sound function implemented into nextSequence
+function playSound(name) {            
   var audio = new Audio("sounds/" + name + ".mp3");
   audio.play();
 }
 
-function startOver() {
+function startOver() {    //reset the game
   level = 0;
   gamePattern = [];
   started = false;
