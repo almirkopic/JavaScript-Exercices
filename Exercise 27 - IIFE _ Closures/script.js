@@ -81,3 +81,17 @@ const boardPassengers = function (n, wait) {
 
 const groupSize = 1000; // Change 'perGroup' to 'groupSize'
 boardPassengers(180, 3);
+
+
+// Coding Challenge #2
+
+
+(function () {
+  const header = document.querySelector("h1");
+  header.style.color = "red";
+
+  document.querySelector("body").addEventListener("click", function () {
+    header.style.color = "blue";
+  });
+})();
+
